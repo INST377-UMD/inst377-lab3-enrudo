@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title> Lab 3, Rock Paper Scissors </title>
+        <link rel="stylesheet" href="L3_INST377.css">
+        <style>
+    
+            input[type="submit"]{background-color:black; color:white; font-size:18px; margin: 5px; cursor: pointer;}
+            input[type="submit"]:hover {background-color: lightgray; color: black;}
+            label {font-size: 18px; margin: 5px} /*changes name/email*/
+            .form-container input[type="text"] {font-size: 18px; border: 2px solid grey; margin: 5px} 
+        </style>
+    </head>
+
+    <body>
+
+        <div class="header"><h1>Lab 3 - Rock Paper Scissors</h1></div>
+        
+        <nav>
+            <ul>
+                <li><a href="https://finance.yahoo.com" target="_blank">Yahoo Finance</a></li>
+                <li><a href="https://www.gemini.com" target="_blank">Gemini</a></li>
+                <li><a href="https://www.testudo.umd.edu" target="_blank">Testudo</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="main-content">
+                <h2>Please choose one of the following.</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="choice">Your choice:</label>
+                    
+                    <select id="choice" name="choice" style="font-family: 'Times New Roman', serif;">
+                        <option value="rock">Rock</option>
+                        <option value="paper">Paper</option>
+                        <option value="scissors">Scissors</option>
+                    </select><br><br>
+                    <button type="submit" style="font-family: 'Times New Roman', serif;">Submit</button>
+                </form>
+            </div>
+            
+            <div class="sidebar">
+                <h3><u>Rules</u></h3>
+                <h3>You must choose Rock, Paper or Scissors</h3>
+                <p><b>The Combos are as follows:</b></p>
+                <ul>
+                    <li>Rock beats Scissors</li>
+                    <li>Scissors beats Paper</li>
+                    <li>Paper beats Rock</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header" style="margin-top: 10px;">
+            <p>This is a footer, maybe I should make it interesting, but I am pretty boring.</p>
+        </div>
+
+
+    </body>
+</html>
